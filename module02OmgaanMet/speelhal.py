@@ -3,4 +3,4 @@ gameseatperpersoon = 0.37
 minuten = 5
 personen = 4
 
-print("In totaal:",int(toegangsticket + gameseatperpersoon * minuten * personen) , "euro")
+print("Dit geweldige dagje-uit met 4 mensen in de Speelhal met 45 minuten VR kost je maar:",round(toegangsticket + gameseatperpersoon * minuten * personen,2) , "euro")
