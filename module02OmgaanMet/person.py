@@ -4,4 +4,9 @@ postcode = input('Uw Postcode:');
 woonplaats = input(' Uw Woonplaats:');
 
 
-print("---------------------------------------\n|  Naam      : ",naam, "\n|  Adress    : ", adress, "\n|  Postcode  : ", postcode, "\n|  Woonplaats: ", woonplaats, "\n----------------------------------------")
+print("---------------------------------------")
+print(f"|Naam: " ,{naam})
+print(f"|Adress:" ,{adress})
+print(f"|Postcode:", {postcode})  
+print(f"|Woonplaats:" , {woonplaats})
+print("---------------------------------")
