@@ -8,9 +8,11 @@ largeprijs = large_aantal * 9.99
 
 totaal = smallprijs + mediumprijs + largeprijs
 
-print("-------------------------")
-print("|Small pizza:  ",    smallprijs,  " euro  |")
+print("-----------------------------")
+print("Aantal:" , small_aantal,"|Small pizza:  ",    smallprijs,  " euro  |")
 print("|Medium pizza: ",    mediumprijs, " euro |")
 print("|Large pizza:  ",      largeprijs," euro |")
+print("-----------------------------")
 print("|Totaal:        ",      totaal," euro|")
-print("--------------------------")
+print("-----------------------------")
+
