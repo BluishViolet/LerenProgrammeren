@@ -3,7 +3,7 @@ b = 5
 
 if a > b:
     Max = a
-    print( f"a is het grootste getal:{Max}")
+    print(f"a is het grootste getal:{Max}")
 elif a < b:
     Min = b
     print(f"b is het kleinste getal:, {Min}")
