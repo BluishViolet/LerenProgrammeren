@@ -14,6 +14,6 @@ voorijkostenPerkmTotaal = voorijkostenAfstand * afstandBedrijfKM
 print(f'''Offerte voor een zwembad van 8 bij 1,5 meter
 Uitgraven:        €{uitgravenTotaal}
 Afvoeren grond:   €{afvoerendGrond}
-Voorijkosten:     €{voorijkostenPerkmTotaal} 
+Voorijkosten:     €{voorijkostenPerkmTotaal}
 Totaal:           €{inTotaal}  
 ''')
