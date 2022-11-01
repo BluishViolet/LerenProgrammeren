@@ -16,7 +16,7 @@ geslacht = input("Bent uw een man of vrouw?")
 if geslacht == "man":
     snor = input("Heeft uw een snor? J/N" )
     if snor == "j":
-        snorlengte = int(input("Is uw snor breder dan 10cm?"))
+        snorlengte = int(input("Breedte van uw snor?"))
 elif geslacht == "vrouw":
     haarkleur = input("Wat is uw haar kleur?")
     if haarkleur == "rood":
@@ -34,7 +34,7 @@ dieren = int(input("Heeft uw ervaring met dieren dressur? Zo ja, hoeveel?"))
 jongleren = int(input("Heeft uw ervaring met jongleren? Zo ja, hoeveel?"))
 acrobatiek = int(input("Heeft uw ervaring met acrobatiek? Zo ja, hoeveel?"))
 
-if snorlengte >= 10 or diploma == "j" or rijbewijs == "j" or hoed == "j" or certif == "j" or haarlengte > 20 or lengteCM > 150 or gewicht > 90 or dieren > 4 or jongleren > 5 or acrobatiek > 3:
+if snorlengte >= 10 and diploma == "j" and rijbewijs == "j" and hoed == "j" and certif == "j" or haarlengte > 20 and lengteCM > 150 and gewicht > 90 and dieren > 4 and jongleren > 5 and acrobatiek > 3:
     print(f"Proficiaat {naam}! Uw komt in aanmerking voor een solicitatiegesprek, stuur snel uw CV")
 else:
     print(f"{naam}, uw voldoet niet aan ons criteria het spijt ons!")
